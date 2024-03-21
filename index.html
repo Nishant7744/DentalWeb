@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        main {
+            height: 100vh;
+            width: 100%;
+            background-color: aquamarine;
+        }
+
+        header {
+            height: 50px;
+            width: 100%;
+            background-color: #F4F4F4;
+            display: flex;
+            position: fixed;
+            top: 0px;
+            z-index: 99;
+            
+            
+
+        }
+
+        .section1 {
+            height: 100%;
+            width: 30%;
+            background-color: transparent;
+            display: flex;
+
+
+        }
+
+        .section1 p {
+            margin-top: 15px;
+            margin-left: 160px;
+            font-size: 14px;
+            color: #707070;
+        }
+
+        .section2 {
+            height: 100%;
+            width: 50%;
+            background-color: transparent;
+            display: flex;
+        }
+
+        .section2 p {
+            margin-top: 15px;
+            margin-left: 20pxpx;
+            font-size: 14px;
+            color: #707070;
+        }
+
+        .section2 p a {
+            text-decoration: none;
+            color: #707070;
+            margin-left: 5px;
+        }
+
+        .section3 {
+            height: 100%;
+            width: 20%;
+            background-color: transparent;
+            transition: all;
+        }
+
+        .section3 .social_icons {
+
+            display: flex;
+
+        }
+
+        .section3 ul li {
+
+            list-style-type: none;
+            margin-left: 10px;
+            margin-top: 15px;
+            color: #707070;
+        }
+
+        .section3 ul li:hover {
+
+            transform: scale(1.2);
+            color: #00AEF0;
+
+        }
+
+        nav {
+            height: 100px;
+            width: 100%;
+            background-color: indianred;
+            display: flex;
+            margin-top: 50px;
+           
+            
+        }
+
+        .nav1 {
+            height: 100%;
+            width: 20%;
+            background-color: #FFFFFF;
+        }
+        .nav1 img:hover
+        {
+            transform: scale(1.1);
+        }
+
+        .nav1 img {
+
+            margin: 25px 150px;
+
+        }
+
+        .nav2 {
+            height: 100%;
+            width: 60%;
+            background-color: #FFFFFF;
+        }
+
+        .nav2 ul {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .nav2 ul li {
+            list-style-type: none;
+            font-weight: 400;
+
+        }
+
+        .nav2 ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            font-family: Montserrat, sans-serif;
+
+
+        }
+
+        ul li .submenu
+        {
+            position: absolute;
+            top: 150px;
+            height: 350px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            display: none;
+            transition-duration: 0.6;
+        }
+
+        
+
+        ul li:hover .submenu
+        {
+           z-index: 100;
+            display: flex;
+            background-color:#FFFFFF;
+            
+            
+        }
+
+        
+
+        .nav3 {
+            height: 100%;
+            width: 20%;
+            background-color: #FFFFFF;
+        }
+
+        .nav3 .booking_btn {
+            padding: 10px 30px;
+            background-color: #00AEF0;
+            color: #F4F4F4;
+            font-weight: 600;
+            border-color: #00AEF0;
+            margin: 28px 0px;
+        }
+
+        .nav3 .booking_btn:hover {
+            background-color: #FFFFFF;
+            color: #00AEF0;
+            transition-duration: 0.7s;
+        }
+
+        .background {
+            height: 580px;
+            width: 100%;
+            background-color: cornflowerblue;
+            background-image: url(./media/dental\ back.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            animation-name: demo;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            
+            
+
+
+        }
+
+        .background .bg_hsla {
+            height: 100%;
+            width: 100%;
+            background-color: hsla(0, 0%, 0%, 0.8);
+            
+
+        }
+
+        .bg_txt .get_start {
+
+            padding: 10px 30px;
+            background-color: #00AEF0;
+            border-color: #00AEF0;
+            color: #FFFFFF;
+            font-weight: 600;
+            margin-left: 600px;
+            margin-top: 70px;
+
+        }
+
+        .bg_txt .get_start:hover {
+            background-color: transparent;
+            transition-duration: 0.7s;
+        }
+
+        .bg_txt .contact_us {
+
+            padding: 10px 30px;
+            color: #00AEF0;
+            border-color: #00AEF0;
+            background-color: transparent;
+            font-weight: 600;
+            margin-left: 13px;
+
+        }
+        
+        .bg_txt .contact_us:hover
+        {
+            background-color: #00AEF0;
+            color: #FFFFFF;
+            transition-duration: 0.7s;
+        }
+
+        .about {
+            height: 600px;
+            width: 100%;
+            background-color: aquamarine;
+            display: flex;
+        }
+
+        .box_img {
+            height: 100%;
+            width: 50%;
+            background-color: #FFFFFF;
+
+
+
+        }
+
+        .box2 {
+            height: 100%;
+            width: 50%;
+            background-color: #FFFFFF;
+        }
+
+        .features {
+            height: 270px;
+            width: 100%;
+            background-color: #FFFFFF;
+            display: flex;
+        }
+
+        .our_services {
+            height: 550px;
+            width: 100%;
+            display: flex;
+            background-image: url(./media/dento\ bg3.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+        }
+
+        .our_services_hsla {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            background-color: hsla(0, 0%, 0%, 0.8);
+        }
+
+        .our_box1 {
+            height: 100%;
+            width: 50%;
+
+            background-color: transparent;
+        }
+
+        .our_box1 .bottom-left:hover {
+            color: #00AEF0;
+            transition-duration: 0.7s;
+        }
+
+        .our_box2 {
+            height: 100%;
+            width: 50%;
+            background-color: transparent;
+        }
+
+        .table_bg {
+            height: 800px;
+            width: 100%;
+            background-color: #FFFFFF;
+            background-size: 100% 100%;
+        }
+
+        .table_bg tr td {
+
+            background-color: #F4F4F4;
+            color: #707478;
+            font-weight: 600;
+            font-family: sans-serif;
+            border: 3px solid #FFFFFF;
+            margin-left: 10px;
+            padding: 3px 10px;
+
+        }
+
+        .table_bg .read_more {
+
+            padding: 10px 30px;
+            background-color: #00AEF0;
+            font-weight: 600;
+            color: white;
+            border-color: #00AEF0;
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 680px;
+        }
+
+        .table_bg .read_more:hover {
+            background-color: #FFFFFF;
+            color: #00AEF0;
+            transition-duration: 0.7s;
+        }
+
+        .appointment {
+            height: 650px;
+            width: 100%;
+            background: url(./media/dento\ bg\ 4.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        .appointment_hsla {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            background-color: hsla(0, 0%, 0%, 0.8);
+
+
+        }
+
+        .appointment_hsla .Book_now {
+            padding: 10px 30px;
+            height: 40px;
+            width: 200px;
+            background-color: #00AEF0;
+            font-weight: 600;
+            color: #FFFFFF;
+            border-color: #00AEF0;
+            position: absolute;
+            margin: 580px 650px;
+
+        }
+
+        .appointment_hsla .Book_now:hover {
+            background-color: #FFFFFF;
+            color: #00AEF0;
+            transition-duration: 0.7s;
+        }
+
+        .our_dentist {
+            height: 600px;
+            width: 100%;
+            display: flex;
+            background-color: #FFFFFF;
+        }
+
+        .doctor1 {
+            height: 300px;
+            width: 300px;
+            background-color: #F4F4F4;
+            margin: 150px 200px;
+            position: absolute;
+        }
+
+        .doctor2 {
+
+
+            height: 300px;
+            width: 300px;
+            background-color: #F4F4F4;
+            margin: 150px 600px;
+            position: absolute;
+
+        }
+
+        .doctor3 {
+            height: 300px;
+            width: 300px;
+            background-color: #F4F4F4;
+            margin: 150px 1000px;
+            position: absolute;
+        }
+
+        .doctor1 .doctor1_hsla {
+            height: 60px;
+            width: 100%;
+            background-color: hsla(0, 0%, 0%, 0.8);
+            position: absolute;
+            margin-top: -62px;
+        }
+
+        .doctor2 .doctor2_hsla {
+            height: 60px;
+            width: 100%;
+            background-color: hsla(0, 0%, 0%, 0.8);
+            position: absolute;
+            margin-top: -62px;
+        }
+
+        .doctor3 .doctor3_hsla {
+            height: 60px;
+            width: 100%;
+            background-color: hsla(0, 0%, 0%, 0.8);
+            position: absolute;
+            margin-top: -62px;
+        }
+
+        .review {
+            height: 360px;
+            width: 100%;
+            display: flex;
+            background: url(./media/world00_1440px.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+        }
+
+        .review_hsla {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            background-color: hsla(0, 0%, 0%, 0.8);
+        }
+
+        .news
+        {
+            height: 700px;
+            width: 100%;
+            display: flex;
+            background-color: #FFFFFF;
+        }
+
+        .news1
+        {
+            height: 400px;
+            width: 350px;
+            background-color:#FFFFFF;
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 200px;
+            box-shadow: 1px 1px 2px 3px gray;
+        }
+
+        .news1:hover
+        {
+            transform: scale(1.1);
+            transition-duration: 0.7s;
+        }
+
+        .news2
+        {
+            height: 400px;
+            width: 350px;
+            background-color:#FFFFFF;
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 600px;
+            box-shadow: 1px 1px 2px 3px gray;
+        }
+
+        .news2:hover
+        {
+            transform: scale(1.1);
+            transition-duration: 0.7s;
+        }
+
+        .news3
+        {
+            height: 400px;
+            width: 350px;
+            background-color: #FFFFFF;
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 1000px;
+            box-shadow: 1px 1px 2px 3px gray;
+        }
+
+        .news3:hover
+        {
+            transform: scale(1.1);
+            transition-duration: 0.7s;
+        }
+
+        .last
+        {
+            height: 550px;
+            width: 100%;
+            background: url(./media/dental-work-in-costa-rica-555x370@2x.jpeg);
+            background-size: 100% 100%;
+        }
+
+        .last .last_hsla
+        {
+            height: 100%;
+            width: 100%;
+            background-color: hsla(0, 0%, 0%, 0.8);
+            display: flex;
+        }
+
+        .last_hsla .info
+        {
+            height: 70%;
+            width: 25%;
+            background-color: transparent;
+            margin-left: 130px;
+            margin-top: 70px;
+            font-family: sans-serif;
+            font-weight: 200;
+        }
+
+        .last_hsla .time{
+
+            height: 70%;
+            width: 20%;
+            background-color: transparent;
+            margin-top: 70px;
+            font-family: sans-serif;
+            font-weight: 200;
+            
+
+        }
+
+        .last_hsla .quick
+        {
+            height:70%;
+            width: 20%;
+            background-color: transparent;
+            margin-top: 70px;
+            font-family: sans-serif;
+            font-weight: 200;
+
+        }
+
+        .last_hsla .news_letter
+        {
+            height: 70%;
+            width: 20%;
+            background-color: transparent;
+            margin-top: 70px;
+            font-family: sans-serif;
+            font-weight: 200;
+
+        }
+
+        .news_letter  a:hover
+        {
+            background-color: black;
+            color: #FFFFFF;
+            transition-duration: 0.7s;
+        }
+
+        .news_letter .last_icons {
+
+            display: flex;
+
+        }
+
+        .news_letter ul li {
+
+            list-style-type: none;
+            margin-left: 10px;
+            margin-top: 60px;
+            color: #FFFFFF;
+        }
+
+        .news_letter li:hover {
+
+            transform: scale(1.2);
+            color: #00AEF0;
+            
+
+        }
+
+        .footer
+        {
+            height: 120px;
+            width: 100%;
+            background-color: transparent;
+            position: absolute;
+            margin-top: -150px;
+        }
+        .footer hr
+        {
+           
+            margin: 50px 150px;
+            
+        }
+
+        @keyframes demo {
+            20% {
+                background: url(./media/1355242-dentist-640w.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+
+            50% {
+                background: url(./media/dento\ bg3.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+
+            70% {
+
+                background: url(./media/dento\ bg\ 4.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+
+            }
+
+            100%
+            {
+                background: url(./media/dental-work-in-costa-rica-555x370@2x.jpeg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+
+            <div class="section1">
+
+
+                <a href="#"><i class="fa fa-solid fa-address-book" style="color: #00AEF0; position: absolute; margin: 16px 140px;"></i></a>
+                <p>28 jackson street,chicago,774482 USA</p>
+            </div>
+            </div>
+
+
+            <div class="section2">
+
+                <a href="#"><i class="fa fa-solid fa-envelope"
+                        style="margin-top: 15px; margin-left:5px; color: #00AEF0;"></i></a>
+                <p><a href="#">info.dento@gmail.com</a></p>
+            </div>
+
+
+            <div class="section3">
+
+
+                <ul class="social_icons">
+
+                    <a href="#"><li><i class="fa fa-facebook" style="color:#707070"></i></li></a>
+                    <a href="#"><li><i class="fa fa-linkedin" style="color:#707070"></i></li></a>
+                    <a href="#"><li><i class="fa fa-twitter" style="color:#707070"></i></li></a>
+                    <a href="#"><li><i class="fa fa-google" style="color: 	#707070;"></i></li></a>
+                    <a href="#"><li><i class="fa fa-brands fa-pinterest" style="color: #707070;"></i></li></a>
+
+                </ul>
+            </div>
+        </header>
+
+        <nav>
+
+            <div class="nav1">
+
+                <img src="./media/dento logo.png" alt="">
+            </div>
+
+            <div class="nav2">
+
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PAGES</a>
+
+                        <ul class="submenu">
+                            <a href="#"><li>Home</li></a>
+                            <a href="#"><li>About Us </li></a>
+                            <a href="#"><li>Pricing</li></a>
+                            <a href="#"><li>Services</li></a>
+                            <a href="#"><li>Blog</li></a>
+                            <a href="#"><li>Contact</li></a>
+                            <a href="#"><li>Dropdown</li></a>
+                        </ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PRICING</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <div class="nav3">
+
+                <button class="booking_btn">BOOKING NOW</button>
+            </div>
+        </nav>
+
+
+        <div class="background">
+            <div class="bg_hsla">
+
+                <div class="bg_txt" style="height: 100%; width: 100%; position: absolute;">
+
+                    <h1
+                        style=" height: 200px; width: 50%; margin: 100px 400px;   color: #FFFFFF; font-size: 45px; font-family: sans-serif;">
+                        We Belive Everyone Should Have
+                        <br>Easy Access To Great Dental Care
+                    </h1>
+
+                    <h3
+                        style="color: #FFFFFF; margin-left: 0px; margin-top: -140px; font-size: 20px; font-weight: lighter; word-spacing: 3px; text-align-last: center; line-height: 30px;">
+                        As a leading industry, Dento is opening up exciting new opportunities for dental
+                        professionals,<br><span style="text-align-last: center;">investors employees & suppliers.Contact
+                            us to
+                            find out what we have to offer you.</span></h3>
+
+                    <button class="get_start">GET STARTED</button>
+                    <button class="contact_us">CONTACT US</button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="about">
+
+            <div class="box_img">
+
+                <img src="./media/about img.webp" alt=""
+                    style="height: 500px; width: 550px; margin: 50px 100px; border-radius: 20px; box-shadow: 1px 1px 1px 1px gray;">
+            </div>
+            <div class="box2">
+
+
+                <div style="height: 6px; width: 100px; background-color: #00AEF0; position: absolute; margin: 90px 50px;"></div>
+
+                <h1 style="margin: 50px 50px; font-variant: small-caps;">About Us</h1>
+                <h3 style="margin-left: 50px; font-weight: lighter;">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Ea eius distinctio accusamus repudiandae, itaque
+                    provident sunt quasi. Cupiditate a explicabo corrupti adipisci eaque reprehenderit error fugiat
+                    tenetur, rem
+                    eius obcaecati.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eius distinctio accusamus
+                    repudiandae, itaque</h3>
+
+                <h2 style="margin: 30px 50px;">Experience Dentist:<span style="margin-left: 400px;">80%</span></h2>
+                
+
+                <progress max="100" value="80"
+                    style="width: 90%; margin-left: 50px; height: 30px; border-radius: 0px; margin-top: -70px; "></progress>
+
+                <h2 style="margin: 30px 50px;">Modern Equipment:<span style="margin-left: 390px;">65%</span></h2>
+                <progress max="100" value="65"
+                    style="width: 90%; margin-left: 50px; height: 30px; border-radius: 0px; margin-top: -70px;"></progress>
+
+                <h2 style="margin: 30px 50px;">Friendly Staff:<span style="margin-left: 450px;">85%</span></h2>
+                <progress max="100" value="85"
+                    style="width: 90%; margin-left: 50px; height: 30px; border-radius: 0px; margin-top: -70px;"></progress>
+
+            </div>
+        </div>
+
+
+        </div>
+
+        <div class="features">
+
+            <img src="./media/features logo.png" alt="" style="margin-left: 180px; height: 250px;">
+        </div>
+
+        <div class="our_services">
+
+            <div class="our_services_hsla">
+
+                <div class="our_box1">
+
+                    <div style="height: 6px; width: 100px; background-color: #00AEF0; position: absolute; margin: 150px 100px;"></div>
+                
+                    <h1 style="color: #FFFFFF; margin: 100px 100px ;">Our Services</h1>
+
+                    <img src="./media/s1.png.webp" alt="" style="margin-top: -100px; margin-left: 100px;">
+                    <div class="bottom-left" style="margin: 5px 100px; position: absolute; color: #FFFFFF;">Teeth
+                        Whitening</div>
+
+                    <img src="./media/s2.png.webp" alt=""
+                        style="margin-top: -20px; margin-left: 150px; position: absolute;">
+                    <div class="bottom-left" style="margin: 7px 300px; position: absolute; color: #FFFFFF"> Missing
+                        Teeth</div>
+
+                    <img src="./media/s3.png.webp" alt=""
+                        style="position: absolute; margin-left: 350px; margin-top: -20px;">
+                    <div class="bottom-left" style="margin: 10px 500px; position: absolute; color: #FFFFFF">Teeth
+                        Whitening</div>
+
+
+                    <img src="./media/s4.png.webp" alt=""
+                        style="position: absolute; margin-left:-50px ; margin-top: 90px;">
+                    <div class="bottom-left" style="margin: 120px 100px; position: absolute; color: #FFFFFF">Cosmetic
+                        Dentistry</div>
+
+                    <img src="./media/s5.png.webp" alt=""
+                        style="position: absolute; margin-top: 85px; margin-left: 150px;">
+                    <div class="bottom-left" style="margin: 120px 300px; position: absolute; color: #FFFFFF">Examination
+                    </div>
+
+                    <img src="./media/s1.png.webp" alt=""
+                        style="position: absolute; margin-left: 350px; margin-top: 100px;">
+                    <div class="bottom-left" style="margin: 121px 500px; position: absolute; color: #FFFFFF">Teeth pain
+                    </div>
+
+
+
+                </div>
+                <div class="our_box2">
+
+                    <img src="./media/box 2 bg.webp" alt=""
+                        style="height: 70%; width: 60%; margin-top: 100px; margin-left: 50px;">
+
+                    <a href="#"><i class="fa fa-solid fa-play"
+                            style="color:#FFFFFF; position: absolute; margin-left: -245px; margin-top: 260px; background-color: black; padding: 15px 16px; border-radius: 50%;"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="table_bg">
+
+            <div style="height: 6px; width: 100px; background-color: #00AEF0; position: absolute; margin: 40px 710px;"></div>
+                
+
+            <h1 style="text-align: center; margin-top: 20px; font-variant: small-caps;">Pricing</h1>
+
+            <table border="0" height="600px" width="80%" cellspadding="10px" cellspacing="0px"
+                style=" margin-left: 150px; margin-top: 50px; ">
+
+                <tr>
+                    <th
+                        style="background-color: #00AEF0; color: #FFFFFF; font-weight: 600; font-family: sans-serif;border: 3px  solid #FFFFFF;">
+                        Service Name</th>
+                    <th
+                        style="background-color: #00AEF0; color: #FFFFFF; font-weight: 600; font-family: sans-serif; border: 3px  solid #FFFFFF;">
+                        Stage</th>
+                    <th
+                        style="background-color: #00AEF0; color: #FFFFFF; font-weight: 600; font-family: sans-serif; border: 3px  solid #FFFFFF;">
+                        Prize</th>
+                </tr>
+
+                <tr>
+                    <td>Teeth Whitening Service at home</td>
+                    <td>1 Times</td>
+                    <td>$115.00</td>
+                </tr>
+
+                <tr>
+                    <td>Teeth Whitening Service at Dental Clinic</td>
+                    <td>1 Times</td>
+                    <td>$100.00</td>
+                </tr>
+
+                <tr>
+                    <td>Ceramic crowns and fillings Dental porcelain</td>
+                    <td>1 Times</td>
+                    <td>$99.00</td>
+                </tr>
+
+                <tr>
+                    <td>Remove crowns, bridges Service</td>
+                    <td>1 Tooth</td>
+                    <td>$600.00</td>
+                </tr>
+
+                <tr>
+                    <td>Covering the recession of the gums</td>
+                    <td>1 Times</td>
+                    <td>$400.00</td>
+                </tr>
+
+                <tr>
+                    <td>Consultation, impressions and preparation of modelsc</td>
+                    <td>1 Times</td>
+                    <td>$35.00</td>
+                </tr>
+
+                <tr>
+                    <td>Removal of an old inlay, old crown</td>
+                    <td>1 Times</td>
+                    <td>$99.00</td>
+                </tr>
+
+                <tr>
+                    <td>Overlay teeth whitening ( 2 arches)</td>
+                    <td>1 Times</td>
+                    <td>$170.00</td>
+                </tr>
+
+                <tr>
+                    <td>Standard porcelain and zirconium crown on implant</td>
+                    <td>1 Tooth</td>
+                    <td>$499.00</td>
+                </tr>
+
+                <tr>
+                    <td>Implantation of an implant (price depends on system used)</td>
+                    <td>1 Tooth</td>
+                    <td>$600.00</td>
+                </tr>
+            </table>
+
+            <button class="read_more">GET STARTED</button>
+
+
+
+        </div>
+
+        <div class="appointment">
+            <div class="appointment_hsla">
+
+                <div style="height: 6px; width: 100px; background-color: #00AEF0; position: absolute; margin: 80px 700px;"></div>
+                
+
+                <h1 style="color: #FFFFFF; margin-top: 30px ; margin-left: 600px; font-variant: small-caps;">Book An appointment</h1>
+
+                <input type="text" name="your-name" placeholder="Your Name"
+                    style=" position: absolute;  height: 50px; width: 400px; margin: 150px 350px; border: none; background-color:hsla(0, 0%, 0%, 0.5); text-indent: 25px; font-style: italic; color: #FFFFFF;">
+
+                <input type="text" name="your-phone" placeholder="Your Phone"
+                    style=" position: absolute;  height: 50px; width: 400px; margin: 150px 800px; border: none; background-color:hsla(0, 0%, 0%, 0.5); text-indent: 25px; font-style: italic; color: #FFFFFF;">
+
+                <input type="text" name="your-email" placeholder="Your Email"
+                    style=" position: absolute;  height: 50px; width: 400px; margin: 230px 350px; border: none; background-color:hsla(0, 0%, 0%, 0.5); text-indent: 25px; font-style: italic; color: #FFFFFF;">
+
+                <input type="text" name="your-address" placeholder="Your Address"
+                    style=" position: absolute;  height: 50px; width: 400px; margin: 230px 800px; border: none; background-color:hsla(0, 0%, 0%, 0.5); text-indent: 25px; font-style: italic; color: #FFFFFF;">
+
+                
+
+                <select name="" id="value" style="height: 50px; width: 400px; background-color:hsla(0, 0%, 0%, 0.5); position: absolute; margin: 310px 350px; border: none; color: #FFFFFF;">
+
+                        <option value="">Choose Your Schedule</option>
+                        <option value="">9 AM to 10 AM</option>
+                        <option value="">10 AM to 10 AM</option>
+                        <option value="">11 AM to 12 AM</option>
+                        <option value="">12 AM to 1 AM</option>
+                </select>
+
+                <select name="" id="value" style="height: 50px; width: 400px; background-color:hsla(0, 0%, 0%, 0.5); position: absolute; margin: 310px 800px; border: none; color: #FFFFFF;">
+
+                    <option value="">Choose Your Schedule</option>
+                    <option value="">9 AM to 10 AM</option>
+                    <option value="">10 AM to 11 AM</option>
+                    <option value="">11 AM to 12 AM</option>
+                    <option value="">1 AM to 2 AM</option>
+            </select>
+
+                <input type="text" name="your-Message" placeholder=" Your Message"
+                    style=" color: #FFFFFF;  position: absolute;  height: 150px; width: 850px; margin: 390px 350px; border: none; background-color:hsla(0, 0%, 0%, 0.5); text-indent: 25px; font-style: italic;">
+
+                
+
+                <button class="Book_now">BOOKING NOW</button>
+            </div>
+
+        </div>
+
+        <div class="our_dentist">
+
+            <div style="height: 6px; width: 100px; background-color: #00AEF0; position: absolute; margin: 100px 700px;"></div>
+                
+
+            <h1 style="color: black; position: absolute; margin: 60px 660px; font-variant: small-caps;">Our Dentist</h1>
+
+            <div class="doctor1">
+                <img src="./media/9.png" alt="" height="100%" width="100% " style="box-shadow: 2px 2px 2px 3px gray;">
+                <div class="doctor1_hsla">
+                    <h2 style="text-align: center; color: #FFFFFF; font-family: sans-serif; font-weight: lighter;">Michael Barley</h2>
+                    <h3 style="text-align: center; color: #FFFFFF; font-family: sans-serif; font-weight: lighter;">Implant Expert</h3>
+                </div>
+
+            </div>
+            <div class="doctor2">
+                <img src="./media/10.png" alt="" height="100%" width="100%" style="box-shadow: 2px 2px 2px 3px gray;">
+                <div class="doctor2_hsla">
+                    <h2 style="text-align: center; color: #FFFFFF; font-family: sans-serif; font-weight: lighter;">Michael Barley</h2>
+                    <h3 style="text-align: center; color: #FFFFFF; font-family: sans-serif; font-weight: lighter;">Implant Expert</h3>
+                </div>
+            </div>
+            <div class="doctor3">
+                <img src="./media/11.png" alt="" height="100%" width="100%" style="box-shadow: 2px 2px 2px 3px gray;">
+                <div class="doctor3_hsla">
+                    <h2 style="text-align: center; color: #FFFFFF; font-family: sans-serif; font-weight: lighter;">Michael Barley</h2>
+                    <h3 style="text-align: center; color: #FFFFFF; font-family: sans-serif; font-weight: lighter;">Implant Expert</h3>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="review">
+
+            <div class="review_hsla">
+                <img src="./media/8.jpg" alt="" style="position: absolute; margin: 100px 200px; border-radius: 50%;">
+
+                <p style="color: #FFFFFF; position: absolute; margin: 130px 400px; font-size: 20px; width: 60%; font-style: italic;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit blanditiis expedita incidunt labore
+                    facere, ipsa rem nisi, consectetur quos iure ratione culpa? Iste perferendis, aperiam, possimus
+                    nulla quibusdam dolorem nam magni ipsam sunt ab ad cumque. Aliquam hic, voluptates praesentium
+                    architecto ullam ad dolore explicabo, rem quae quos mollitia inventore.</p>
+
+                    <h2 style="color: #FFFFFF; position: absolute; margin: 230px 400px; font-size: 18px;">Aron Ramsey</h2>
+
+                    <h3 style="color: #FFFFFF; position: absolute; margin: 250px 400px; font-size: 14px; text-indent: 7px;">Dental Patient</h3>
+            </div>
+        </div>
+
+
+        <div class="news">
+
+            <div style="height: 6px; width: 100px; background-color: #00AEF0; position: absolute; margin: 100px 720px;"></div>
+                
+            <h1 style="position: absolute; margin: 60px 650px; width: 50%; font-variant: small-caps;">The Latest News</h1>
+            <div class="news1">
+
+                <img src="./media/4.jpg" alt="" height="200px" width="100%">
+                <h2 style="margin: 5px 5px; padding: 3px 3px; color: black; display: block; font-family: sans-serif;">How your mouth bacteria <br>harm your lungs</h2>
+                <h3 style=" margin: 3px 5px; color:#707478; display: block; font-size: 17px; font-family: sans-serif;">Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam ...</h3>
+        
+                <h3 style="font-size: 14px; margin-left: 20px; margin-top: 30px; color: #707478; position: absolute;">28 September 2018</h3>
+                <i class="fa fa-regular fa-comment" style="margin: 30px 170px; position: absolute; color: #00AEF0;"></i>
+                <h3 style="font-size: 14px; color: #707478; margin: 30px 190px;">Comments</h3>
+            </div>
+            <div class="news2">
+
+                <img src="./media/5.jpg" alt="" height="200px" width="100%">
+                <h2 style="margin: 5px 5px; padding: 3px 3px; color: black; display: block; font-family: sans-serif;">What is best kind of  <br>tooth paste</h2>
+                <h3 style=" margin: 3px 5px; color:#707478; display: block; font-size: 17px; font-family: sans-serif;">Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam ...</h3>
+                <h3 style="font-size: 14px; margin-left: 20px; margin-top: 30px; color: #707478; position: absolute;">28 September 2018</h3>
+                <i class="fa fa-regular fa-comment" style="margin: 30px 170px; position: absolute; color: #00AEF0;"></i>
+                <h3 style="font-size: 14px; color: #707478; margin: 30px 190px;">Comments</h3>
+            </div>
+            <div class="news3">
+                <img src="./media/6.jpg" alt="" height="200px " width="100%">
+                <h2 style="margin: 5px 5px; padding: 3px 3px; color: black; display: block; font-family: sans-serif;">Why should you avoid<br>sipping your drinks</h2>
+                <h3 style=" margin: 3px 5px; color:#707478; display: block; font-size: 17px; font-family: sans-serif;">Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam ...</h3>
+                <h3 style="font-size: 14px; margin-left: 20px; margin-top: 30px; color: #707478; position: absolute;">28 September 2018</h3>
+                <i class="fa fa-regular fa-comment" style="margin: 30px 170px; position: absolute; color: #00AEF0;"></i>
+                <h3 style="font-size: 14px; color: #707478; margin: 30px 190px;">Comments</h3>
+            </div>
+        </div>
+
+        <div class="last">
+
+            <div class="last_hsla">
+                <div class="info">
+                    <img src="./media/logo.png" alt="" style="margin-top: 5px;">
+                    <h3 style="margin-top: 20px; color: #FFFFFF; font-weight: lighter;">Etiam sutor risus, dapibus act elefend katen, lacinia sitamet denim. Mauris sagittis kansa interdum dignissim.</h3>
+
+                    <i  style="color: #00AEF0; margin-left: 5px; margin-top: 50px;"     class="fa fa-solid fa-address-book"></i>
+                    <h3 style="font-size: 16px; position: absolute; margin-left: 30px; margin-top: -20px;  color: #FFFFFF; font-weight: lighter;">28 Jackson Street, Chicago, 7788569 USA</h3><br>
+
+                    <i style="position: absolute; margin-top: 10px; margin-left: 5px; color: #00AEF0;"  class="fa fa-solid fa-phone"></i>
+                    <h3 style="position: absolute; font-size: 16px; margin-left: 25px; margin-top: 10px;  color: #FFFFFF; font-weight: lighter;">+84. 2252. 2250. 122</h3>
+
+                    <i style="position: absolute; margin-top: 40px; margin-left: 5px; color: #00AEF0;"  class="fa fa-solid fa-envelope"></i>
+                    <h3 style="position: absolute; margin-top: 40px; margin-left: 28px; font-size: 16px;  color: #FFFFFF; font-weight: lighter;">info.dento@gmail.com</h3>
+                </div>
+
+
+                <div class="time">
+
+                    <h2 style="margin-top: 10px; margin-left:5px;  color: #FFFFFF;">Opening Hours</h2>
+
+                    <h3 style="margin-left: 5px; margin-top: 30px;  color: #FFFFFF; font-weight: lighter;">Mon-Wed</h3>
+                    <h3 style="position: absolute; margin-left: 180px; margin-top: -20px;  color: #FFFFFF; font-weight: lighter;">8.00-18.00</h3>
+
+                    <h3 style="margin-left: 5px; margin-top: 20px;  color: #FFFFFF; font-weight: lighter;">Thu-Fri</h3>
+                    <h3 style="position: absolute; margin-left: 180px; margin-top: -20px;  color: #FFFFFF; font-weight: lighter;">9.00-17.00</h3>
+
+                    <h3 style="margin-left: 5px; margin-top: 20px;  color: #FFFFFF; font-weight: lighter;">Sat</h3>
+                    <h3 style="position: absolute; margin-left: 180px; margin-top: -20px;  color: #FFFFFF; font-weight: lighter;">10.00-18.00</h3>
+
+                    <h3 style="margin-left: 5px; margin-top: 20px;  color: #FFFFFF; font-weight: lighter;">Sun</h3>
+                    <h3 style="position: absolute; margin-left: 180px; margin-top: -20px;  color: #FFFFFF; font-weight: lighter;">8.00-18.00</h3>
+
+                    <h3 style="margin-left: 5px; margin-top: 20px;  color: #FFFFFF; font-weight: lighter;">Holiday</h3>
+                    <h3 style="position: absolute; margin-left: 180px; margin-top: -20px;  color: #FFFFFF;font-weight: lighter;">Closed</h3>
+                </div>
+
+                <div class="quick">
+
+                    <h2 style="margin-top: 10px; margin-left: 5px;  color: #FFFFFF;">Quick Link</h2>
+
+                    <h3 style="margin-left: 5px; margin-top: 22px;  color: #FFFFFF; font-weight: lighter;">About</h3>
+                    <h3 style="position: absolute; margin-left: 180px; margin-top: -20px;  color: #FFFFFF; font-weight: lighter;">FAQ</h3>
+
+                    <h3 style="margin-left: 5px; margin-top: 22px;  color: #FFFFFF; font-weight: lighter;">Contact</h3>
+                    <h3 style="position: absolute; margin-left: 180px; margin-top: -20px;  color: #FFFFFF; font-weight: lighter;">Policy</h3>
+
+                    <h3 style="margin-left: 5px; margin-top: 22px;  color: #FFFFFF; font-weight: lighter;">News</h3>
+                    <h3 style="position: absolute; margin-left: 180px; margin-top: -20px;  color: #FFFFFF; font-weight: lighter;">Advisor</h3>
+
+                    <h3 style="margin-left: 5px; margin-top: 22px;  color: #FFFFFF; font-weight: lighter;">Careers</h3>
+                    <h3 style="position: absolute; margin-left: 180px; margin-top: -20px;  color: #FFFFFF; font-weight: lighter;">Dentist</h3>
+
+                    <h3 style="margin-left: 5px; margin-top: 22px;  color: #FFFFFF; font-weight: lighter;">Services</h3>
+                    <h3 style="position: absolute; margin-left: 180px; margin-top: -20px;  color: #FFFFFF; font-weight: lighter;">Legal</h3>
+                </div>
+
+                <div class="news_letter">
+
+                    <h2 style="margin-top: 10px; margin-left: 5px;  color: #FFFFFF;">News Letter</h2>
+
+                    <h3 style="margin-top: 20px; margin-left: 5px;  color: #FFFFFF; font-weight: lighter;">We will send out weekly newest article and some great offers</h3>
+
+                    <input type="text" placeholder="Email Address" style="padding: 10px 15px; font-size: 14px; margin-left: 5px; margin-top: 25px;">
+                    <a href="#"><i style="background-color:#00AEF0; padding: 11px; color: #FFFFFF; border: solid 1px black; margin-left: -5px; margin-top: 7px; font-weight: lighter;"  class=" fa fa-solid fa-paper-plane"></i></a>
+
+                    <ul class="last_icons">
+
+                        <li><i class="fa fa-facebook" style="color:#00AEF0"></i></li>
+                        <li><i class="fa fa-linkedin" style="color:#00AEF0"></i></li>
+                        <li><i class="fa fa-twitter" style="color:#00AEF0"></i></li>
+                        <li><i class="fa fa-google" style="color: 	#FFFFFF;"></i></li>
+                        <li><i class="fa fa-brands fa-pinterest" style="color: red;"></i></li>
+    
+                    </ul>
+
+                    
+                </div>
+                    
+        </div>
+
+        
+        
+        </div>
+        <div class="footer">
+        <h4 style=" position: absolute;  margin: 70px 500px; width: 50%; color: #FFFFFF; font-family: sans-serif; font-weight: lighter;">Copyright ©2023 All rights reserved | This template is made with _._._ by Nishant</h4>
+            
+            <hr>
+            
+        </div>
+
+                 
+
+
+    </main>
+
+
+</body>
+
+</html>

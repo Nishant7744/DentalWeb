@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://preview.colorlib.com/theme/dento/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="Dento - Dentist &amp; Medical HTML Template">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>Dento - Dentist &amp; Medical HTML Template</title>
+
+<link rel="icon" href="https://preview.colorlib.com/theme/dento/img/core-img/favicon.ico">
+
+<link rel="stylesheet" href="./dento bg1_files/style.css">
+<script type="text/javascript" async="" src="./dento bg1_files/analytics.js.download" nonce="96182a2c-de8e-4508-9461-ef442e7a71f8"></script><script defer="" referrerpolicy="origin" src="./dento bg1_files/s.js.download"></script><script nonce="96182a2c-de8e-4508-9461-ef442e7a71f8">(function(w,d){!function(bt,bu,bv,bw){bt[bv]=bt[bv]||{};bt[bv].executed=[];bt.zaraz={deferred:[],listeners:[]};bt.zaraz.q=[];bt.zaraz._f=function(bx){return function(){var by=Array.prototype.slice.call(arguments);bt.zaraz.q.push({m:bx,a:by})}};for(const bz of["track","set","debug"])bt.zaraz[bz]=bt.zaraz._f(bz);bt.zaraz.init=()=>{var bA=bu.getElementsByTagName(bw)[0],bB=bu.createElement(bw),bC=bu.getElementsByTagName("title")[0];bC&&(bt[bv].t=bu.getElementsByTagName("title")[0].text);bt[bv].x=Math.random();bt[bv].w=bt.screen.width;bt[bv].h=bt.screen.height;bt[bv].j=bt.innerHeight;bt[bv].e=bt.innerWidth;bt[bv].l=bt.location.href;bt[bv].r=bu.referrer;bt[bv].k=bt.screen.colorDepth;bt[bv].n=bu.characterSet;bt[bv].o=(new Date).getTimezoneOffset();if(bt.dataLayer)for(const bG of Object.entries(Object.entries(dataLayer).reduce(((bH,bI)=>({...bH[1],...bI[1]})),{})))zaraz.set(bG[0],bG[1],{scope:"page"});bt[bv].q=[];for(;bt.zaraz.q.length;){const bJ=bt.zaraz.q.shift();bt[bv].q.push(bJ)}bB.defer=!0;for(const bK of[localStorage,sessionStorage])Object.keys(bK||{}).filter((bM=>bM.startsWith("_zaraz_"))).forEach((bL=>{try{bt[bv]["z_"+bL.slice(7)]=JSON.parse(bK.getItem(bL))}catch{bt[bv]["z_"+bL.slice(7)]=bK.getItem(bL)}}));bB.referrerPolicy="origin";bB.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(bt[bv])));bA.parentNode.insertBefore(bB,bA)};["complete","interactive"].includes(bu.readyState)?zaraz.init():bt.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script><style type="text/css" id="jarallax-clip-6">#jarallax-container-6 {
+           clip: rect(0 1519.2000732421875px 571.7000122070312px 0);
+           clip: rect(0, 1519.2000732421875px, 571.7000122070312px, 0);
+        }</style><style type="text/css" id="jarallax-clip-7">#jarallax-container-7 {
+           clip: rect(0 1519.2000732421875px 760.4000244140625px 0);
+           clip: rect(0, 1519.2000732421875px, 760.4000244140625px, 0);
+        }</style><style type="text/css" id="jarallax-clip-8">#jarallax-container-8 {
+           clip: rect(0 1519.2000732421875px 380px 0);
+           clip: rect(0, 1519.2000732421875px, 380px, 0);
+        }</style></head>
+<body cz-shortcut-listen="true">
+
+
+
+<header class="header-area">
+
+<div class="top-header-area">
+<div class="container h-100">
+<div class="row h-100 align-items-center">
+
+<div class="col-6 col-md-9 col-lg-8">
+<div class="top-header-content">
+<a href="https://preview.colorlib.com/theme/dento/#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="28 Jackson Street, Chicago, 7788569 USA"><i class="fa fa-map-marker"></i> <span>28 Jackson Street, Chicago, 7788569 USA</span></a>
+<a href="https://preview.colorlib.com/theme/dento/#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="info.dento@gmail.com"><i class="fa fa-envelope"></i> <span>info.dento@gmail.com</span></a>
+</div>
+</div>
+
+<div class="col-6 col-md-3 col-lg-4">
+<div class="top-header-social-info text-right">
+<a href="https://preview.colorlib.com/theme/dento/#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Linkedin"><i class="fa fa-linkedin"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Pinterest"><i class="fa fa-pinterest"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="main-header-area">
+<div class="classy-nav-container breakpoint-off light left">
+<div class="container">
+
+<nav class="classy-navbar justify-content-between" id="dentoNav">
+
+<a class="nav-brand" href="https://preview.colorlib.com/theme/dento/index.html"><img src="./dento bg1_files/logo.png" alt=""></a>
+
+<div class="classy-navbar-toggler">
+<span class="navbarToggler"><span></span><span></span><span></span></span>
+</div>
+
+<div class="classy-menu">
+
+<div class="classycloseIcon">
+<div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+</div>
+
+<div class="classynav">
+<ul id="nav">
+<li><a href="https://preview.colorlib.com/theme/dento/index.html">Home</a></li>
+<li class="cn-dropdown-item has-down"><a href="https://preview.colorlib.com/theme/dento/#">Pages</a>
+<ul class="dropdown">
+<li><a href="https://preview.colorlib.com/theme/dento/index.html">- Home</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/about.html">- About Us</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/service.html">- Service</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/pricing.html">- Pricing</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/blog.html">- Blog</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/blog-details.html">- Blog Details</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/contact.html">- Contact</a></li>
+<li class="has-down"><a href="https://preview.colorlib.com/theme/dento/#">- Dropdown</a>
+<ul class="dropdown">
+<li><a href="https://preview.colorlib.com/theme/dento/#">- Dropdown Item</a></li>
+<li class="has-down"><a href="https://preview.colorlib.com/theme/dento/#">- Dropdown Item</a>
+<ul class="dropdown">
+<li><a href="https://preview.colorlib.com/theme/dento/#">- Even Dropdown</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">- Even Dropdown</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">- Even Dropdown</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">- Even Dropdown</a></li>
+</ul>
+<span class="dd-trigger"></span></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">- Dropdown Item</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">- Dropdown Item</a></li>
+</ul>
+<span class="dd-trigger"></span></li>
+</ul>
+<span class="dd-trigger"></span></li>
+<li><a href="https://preview.colorlib.com/theme/dento/about.html">About</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/service.html">Service</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/pricing.html">Pricing</a></li>
+<li class="cn-dropdown-item has-down"><a href="https://preview.colorlib.com/theme/dento/#">Blog</a>
+<ul class="dropdown">
+<li><a href="https://preview.colorlib.com/theme/dento/blog.html">- Blog</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/blog-details.html">- Blog Details</a></li>
+</ul>
+<span class="dd-trigger"></span></li>
+<li><a href="https://preview.colorlib.com/theme/dento/contact.html">Contact</a></li>
+</ul>
+</div>
+
+</div>
+
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn booking-btn">Booking Now</a>
+</nav>
+</div>
+</div>
+</div>
+</header>
+
+
+<section class="welcome-area">
+
+<div class="welcome-slides owl-carousel owl-loaded owl-drag">
+
+
+
+
+<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-3038px, 0px, 0px); transition: all 0s ease 0s; width: 9114px;"><div class="owl-item cloned" style="width: 1519px;"><div class="welcome-welcome-slide bg-img bg-gradient-overlay jarallax" style="background-image: none;" data-jarallax-original-styles="background-image: url(img/bg-img/1.jpg);">
+<div class="container h-100">
+<div class="row h-100 align-items-center">
+<div class="col-12">
+
+<div class="welcome-text text-center">
+<h2 data-animation="fadeInUp" data-delay="100ms" style="animation-delay: 100ms; opacity: 0;">We Believe Everyone Should Have Easy Access To Great Dental Care</h2>
+<p data-animation="fadeInUp" data-delay="300ms" style="animation-delay: 300ms; opacity: 0;">As a leading industry innovator, Dento is opening up exciting new opportunities for dental professionals, investors, employees &amp; suppliers. Contact us to find out what we have to
+offer you.</p>
+<div class="welcome-btn-group">
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn mx-2" data-animation="fadeInUp" data-delay="500ms" style="animation-delay: 500ms; opacity: 0;">Get Started</a>
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn mx-2 active" data-animation="fadeInUp" data-delay="700ms" style="animation-delay: 700ms; opacity: 0;">Contact Us</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://preview.colorlib.com/theme/dento/img/bg-img/1.jpg&quot;); position: absolute; top: 0px; left: 0px; width: 1519px; height: 732px; overflow: hidden; pointer-events: none; margin-top: -8.5px; transform: translate3d(0px, -95.5px, 0px);"></div></div></div></div><div class="owl-item cloned" style="width: 1519px;"><div class="welcome-welcome-slide bg-img bg-gradient-overlay jarallax" style="background-image: none;" data-jarallax-original-styles="background-image: url(img/bg-img/2.jpg);">
+<div class="container h-100">
+<div class="row h-100 align-items-center">
+<div class="col-12">
+
+<div class="welcome-text text-center">
+<h2 data-animation="fadeInDown" data-delay="100ms" style="animation-delay: 100ms; opacity: 0;">We Believe Everyone Should Have Easy Access To Great Dental Care</h2>
+<p data-animation="fadeInDown" data-delay="300ms" style="animation-delay: 300ms; opacity: 0;">As a leading industry innovator, Dento is opening up exciting new opportunities for dental professionals, investors, employees &amp; suppliers. Contact us to find out what we have to
+offer you.</p>
+<div class="welcome-btn-group">
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn mx-2" data-animation="fadeInDown" data-delay="500ms" style="animation-delay: 500ms; opacity: 0;">Get Started</a>
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn mx-2 active" data-animation="fadeInDown" data-delay="700ms" style="animation-delay: 700ms; opacity: 0;">Contact Us</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="jarallax-container-1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://preview.colorlib.com/theme/dento/img/bg-img/2.jpg&quot;); position: absolute; top: 0px; left: 0px; width: 1519px; height: 732px; overflow: hidden; pointer-events: none; margin-top: -8.5px; transform: translate3d(0px, -95.5px, 0px);"></div></div></div></div><div class="owl-item active" style="width: 1519px;"><div class="welcome-welcome-slide bg-img bg-gradient-overlay jarallax" style="background-image: none;" data-jarallax-original-styles="background-image: url(img/bg-img/1.jpg);">
+<div class="container h-100">
+<div class="row h-100 align-items-center">
+<div class="col-12">
+
+<div class="welcome-text text-center">
+<h2 data-animation="fadeInUp" data-delay="100ms" style="animation-delay: 100ms; opacity: 1;" class="animated fadeInUp">We Believe Everyone Should Have Easy Access To Great Dental Care</h2>
+<p data-animation="fadeInUp" data-delay="300ms" style="animation-delay: 300ms; opacity: 1;" class="animated fadeInUp">As a leading industry innovator, Dento is opening up exciting new opportunities for dental professionals, investors, employees &amp; suppliers. Contact us to find out what we have to
+offer you.</p>
+<div class="welcome-btn-group">
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn mx-2 animated fadeInUp" data-animation="fadeInUp" data-delay="500ms" style="animation-delay: 500ms; opacity: 1;">Get Started</a>
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn mx-2 active animated fadeInUp" data-animation="fadeInUp" data-delay="700ms" style="animation-delay: 700ms; opacity: 1;">Contact Us</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="jarallax-container-2" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://preview.colorlib.com/theme/dento/img/bg-img/1.jpg&quot;); position: absolute; top: 0px; left: 0px; width: 1519px; height: 732px; overflow: hidden; pointer-events: none; margin-top: -8.5px; transform: translate3d(0px, -95.5px, 0px);"></div></div></div></div><div class="owl-item" style="width: 1519px;"><div class="welcome-welcome-slide bg-img bg-gradient-overlay jarallax" style="background-image: none;" data-jarallax-original-styles="background-image: url(img/bg-img/2.jpg);">
+<div class="container h-100">
+<div class="row h-100 align-items-center">
+<div class="col-12">
+
+<div class="welcome-text text-center">
+<h2 data-animation="fadeInDown" data-delay="100ms" style="animation-delay: 100ms; opacity: 0;" class="">We Believe Everyone Should Have Easy Access To Great Dental Care</h2>
+<p data-animation="fadeInDown" data-delay="300ms" style="animation-delay: 300ms; opacity: 0;" class="">As a leading industry innovator, Dento is opening up exciting new opportunities for dental professionals, investors, employees &amp; suppliers. Contact us to find out what we have to
+offer you.</p>
+<div class="welcome-btn-group">
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn mx-2" data-animation="fadeInDown" data-delay="500ms" style="animation-delay: 500ms; opacity: 0;">Get Started</a>
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn mx-2 active" data-animation="fadeInDown" data-delay="700ms" style="animation-delay: 700ms; opacity: 0;">Contact Us</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="jarallax-container-3" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://preview.colorlib.com/theme/dento/img/bg-img/2.jpg&quot;); position: absolute; top: 0px; left: 0px; width: 1519px; height: 732px; overflow: hidden; pointer-events: none; margin-top: -8.5px; transform: translate3d(0px, -95.5px, 0px);"></div></div></div></div><div class="owl-item cloned" style="width: 1519px;"><div class="welcome-welcome-slide bg-img bg-gradient-overlay jarallax" style="background-image: none;" data-jarallax-original-styles="background-image: url(img/bg-img/1.jpg);">
+<div class="container h-100">
+<div class="row h-100 align-items-center">
+<div class="col-12">
+
+<div class="welcome-text text-center">
+<h2 data-animation="fadeInUp" data-delay="100ms" style="animation-delay: 100ms; opacity: 0;" class="">We Believe Everyone Should Have Easy Access To Great Dental Care</h2>
+<p data-animation="fadeInUp" data-delay="300ms" style="animation-delay: 300ms; opacity: 0;" class="">As a leading industry innovator, Dento is opening up exciting new opportunities for dental professionals, investors, employees &amp; suppliers. Contact us to find out what we have to
+offer you.</p>
+<div class="welcome-btn-group">
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn mx-2" data-animation="fadeInUp" data-delay="500ms" style="animation-delay: 500ms; opacity: 0;">Get Started</a>
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn mx-2 active" data-animation="fadeInUp" data-delay="700ms" style="animation-delay: 700ms; opacity: 0;">Contact Us</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="jarallax-container-4" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://preview.colorlib.com/theme/dento/img/bg-img/1.jpg&quot;); position: absolute; top: 0px; left: 0px; width: 1519px; height: 732px; overflow: hidden; pointer-events: none; margin-top: -8.5px; transform: translate3d(0px, -95.5px, 0px);"></div></div></div></div><div class="owl-item cloned" style="width: 1519px;"><div class="welcome-welcome-slide bg-img bg-gradient-overlay jarallax" style="background-image: none;" data-jarallax-original-styles="background-image: url(img/bg-img/2.jpg);">
+<div class="container h-100">
+<div class="row h-100 align-items-center">
+<div class="col-12">
+
+<div class="welcome-text text-center">
+<h2 data-animation="fadeInDown" data-delay="100ms" style="animation-delay: 100ms; opacity: 0;">We Believe Everyone Should Have Easy Access To Great Dental Care</h2>
+<p data-animation="fadeInDown" data-delay="300ms" style="animation-delay: 300ms; opacity: 0;">As a leading industry innovator, Dento is opening up exciting new opportunities for dental professionals, investors, employees &amp; suppliers. Contact us to find out what we have to
+offer you.</p>
+<div class="welcome-btn-group">
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn mx-2" data-animation="fadeInDown" data-delay="500ms" style="animation-delay: 500ms; opacity: 0;">Get Started</a>
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn mx-2 active" data-animation="fadeInDown" data-delay="700ms" style="animation-delay: 700ms; opacity: 0;">Contact Us</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="jarallax-container-5" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://preview.colorlib.com/theme/dento/img/bg-img/2.jpg&quot;); position: absolute; top: 0px; left: 0px; width: 1519px; height: 732px; overflow: hidden; pointer-events: none; margin-top: -8.5px; transform: translate3d(0px, -95.5px, 0px);"></div></div></div></div></div></div><div class="owl-nav"><div class="owl-prev"><i class="ti-angle-left" <="" i=""></i></div><div class="owl-next"><i class="ti-angle-right" <="" i=""></i></div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div>
+</section>
+
+
+<section class="dento-about-us-area section-padding-100-0">
+<div class="container">
+<div class="row align-items-center">
+
+<div class="col-12 col-md-6">
+<div class="about-us-thumbnail mb-50">
+<img src="./dento bg1_files/15.jpg" alt="">
+</div>
+</div>
+
+<div class="col-12 col-md-6">
+<div class="about-us-content mb-50">
+
+<div class="section-heading">
+<h2>About Us</h2>
+<div class="line"></div>
+</div>
+<p>Vestibulum condimentum, risus sedones honcus rutrum, salah lacus mollis zurna, nec finibusmi velit advertisis. Proin vitae odin quis magna aliquet laciniae. Etiam auctor, nisi vel. Pellentesque ultrices nisl quam iaculis, nec pulvinar
+augue.</p>
+
+<div class="single-skills-area mt-30">
+<h6>Experience Dentist</h6>
+<div id="bar1" class="barfiller">
+<span class="tip" style="left: -108px; transition: left 1s ease-in-out 0s;">80%</span>
+<span class="fill" data-percentage="80" style="background: rgb(0, 174, 239); width: 432px; transition: width 1s ease-in-out 0s;"></span>
+</div>
+</div>
+
+<div class="single-skills-area mt-30">
+<h6>Modern Equipment</h6>
+<div id="bar2" class="barfiller">
+<span class="tip" style="left: -189px; transition: left 1s ease-in-out 0s;">65%</span>
+<span class="fill" data-percentage="65" style="background: rgb(0, 174, 239); width: 351px; transition: width 1s ease-in-out 0s;"></span>
+</div>
+</div>
+
+<div class="single-skills-area mt-30">
+<h6>Friendly Staff</h6>
+<div id="bar3" class="barfiller">
+<span class="tip" style="left: -81px; transition: left 1s ease-in-out 0s;">85%</span>
+<span class="fill" data-percentage="85" style="background: rgb(0, 174, 239); width: 459px; transition: width 1s ease-in-out 0s;"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<div class="container">
+<div class="dento-border clearfix"></div>
+</div>
+
+<section class="dento-cta-area">
+<div class="container">
+<div class="row">
+
+<div class="col-12 col-sm-6 col-lg-3">
+<div class="single-cta text-center mt-50 mb-100">
+<i class="icon_genius"></i>
+<h2><span class="counter">20</span></h2>
+<h5>Years Of Experience</h5>
+</div>
+</div>
+
+<div class="col-12 col-sm-6 col-lg-3">
+<div class="single-cta text-center mt-50 mb-100">
+<i class="icon_heart_alt"></i>
+<h2><span class="counter">700</span>+</h2>
+<h5>Happy Patients</h5>
+</div>
+</div>
+
+<div class="col-12 col-sm-6 col-lg-3">
+<div class="single-cta text-center mt-50 mb-100">
+<i class="icon_book_alt"></i>
+<h2><span class="counter">120</span></h2>
+<h5>Certificate</h5>
+</div>
+</div>
+
+<div class="col-12 col-sm-6 col-lg-3">
+<div class="single-cta text-center mt-50 mb-100">
+<i class="icon_id"></i>
+<h2><span class="counter">40</span>+</h2>
+<h5>Dentist</h5>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="dento-service-area section-padding-100-0 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: none;" data-jarallax-original-styles="background-image: url(&#39;img/bg-img/13.jpg&#39;);">
+<div class="container">
+<div class="row align-items-center">
+
+<div class="col-12 col-lg-6">
+<div class="service-content mb-30">
+
+<div class="section-heading white">
+<h2>Our Services</h2>
+<div class="line"></div>
+</div>
+<div class="row">
+
+<div class="col-6 col-md-4">
+<div class="single-service mb-70">
+<img src="./dento bg1_files/s1.png" alt="">
+<h6>Teeth Whitening</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4">
+<div class="single-service mb-70">
+<img src="./dento bg1_files/s2.png" alt="">
+<h6>Missing Teeth</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4">
+<div class="single-service mb-70">
+<img src="./dento bg1_files/s3.png" alt="">
+<h6>Teeth Whitening</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4">
+<div class="single-service mb-70">
+<img src="./dento bg1_files/s4.png" alt="">
+<h6>Cosmetic Dentistry</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4">
+<div class="single-service mb-70">
+<img src="./dento bg1_files/s5.png" alt="">
+<h6>Examination</h6>
+</div>
+</div>
+
+<div class="col-6 col-md-4">
+<div class="single-service mb-70">
+<img src="./dento bg1_files/s1.png" alt="">
+<h6>Teeth Pain</h6>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-lg-6">
+<div class="dento-video-area mb-100">
+<img src="./dento bg1_files/14.jpg" alt="">
+
+<a href="https://preview.colorlib.com/theme/dento/#" class="video-play-button"><i class="fa fa-play" aria-hidden="true"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div id="jarallax-container-6" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://preview.colorlib.com/theme/dento/img/bg-img/13.jpg&quot;); position: fixed; top: 0px; left: 0px; width: 1519.2px; height: 686.34px; overflow: hidden; pointer-events: none; margin-top: 14.33px; transform: translate3d(0px, 126.03px, 0px);"></div></div></section>
+
+
+<section class="dento-pricing-table-area section-padding-100">
+<div class="container">
+<div class="row">
+
+<div class="col-12">
+<div class="section-heading text-center">
+<h2>Pricing</h2>
+<div class="line"></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-12">
+<div class="dento-price-table table-responsive">
+<table class="table table-borderless mb-0">
+<thead>
+<tr>
+<th scope="col">Service Names</th>
+<th scope="col">Stage</th>
+<th scope="col">Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Teeth Whitening Service at home</th>
+<td>1 times</td>
+<td>$115.00</td>
+</tr>
+<tr>
+<th scope="row">Teeth Whitening Service at Dental Clinic</th>
+<td>1 times</td>
+<td>$100.00</td>
+</tr>
+<tr>
+<th scope="row">Ceramic crowns and fillings Dental porcelain</th>
+<td>1 times</td>
+<td>$99.00</td>
+</tr>
+<tr>
+<th scope="row">Remove crowns, bridges Service</th>
+<td>1 tooth</td>
+<td>$50.00</td>
+</tr>
+<tr>
+<th scope="row">Covering the recession of the gums</th>
+<td>1 times</td>
+<td>$400.00</td>
+</tr>
+<tr>
+<th scope="row">Consultation, impressions and preparation of models</th>
+<td>1 times</td>
+<td>$35.00</td>
+</tr>
+<tr>
+<th scope="row">Removal of an old inlay, old crown</th>
+<td>1 times</td>
+<td>$99.00</td>
+</tr>
+<tr>
+<th scope="row">Overlay teeth whitening ( 2 arches)</th>
+<td>1 times</td>
+<td>$170.00</td>
+</tr>
+<tr>
+<th scope="row">Standard porcelain and zirconium crown on implant</th>
+<td>1 tooth</td>
+<td>$499.00</td>
+</tr>
+<tr>
+<th scope="row">Implantation of an implant (price depends on system used)</th>
+<td>1 tooth</td>
+<td>$600.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="col-12">
+<div class="more-btn text-center mt-50">
+<a href="https://preview.colorlib.com/theme/dento/#" class="btn dento-btn">Read More <i class="fa fa-angle-double-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="book-an-oppointment-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: none;" data-jarallax-original-styles="background-image: url(&#39;img/bg-img/12.jpg&#39;);">
+<div class="container">
+<div class="row">
+
+<div class="col-12">
+<div class="section-heading text-center white">
+<h2>Book An Apointment</h2>
+<div class="line"></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-12">
+
+<div class="appointment-form">
+<form action="https://preview.colorlib.com/theme/dento/#" method="post">
+<div class="row">
+<div class="col-md-6">
+<div class="form-group mb-30">
+<input type="text" name="your-name" class="form-control" placeholder="Your Name" required="">
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group mb-30">
+<input type="text" name="your-phone" class="form-control" placeholder="Your Phone" required="">
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group mb-30">
+<input type="email" name="your-email" class="form-control" placeholder="Your Email" required="">
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group mb-30">
+<input type="text" name="your-address" class="form-control" placeholder="Your Address">
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group mb-30">
+<select name="your-scheldule" class="form-control">
+<option value="Choose Your Scheldule">Choose Your Scheldule</option>
+<option value="9 AM to 10 AM">9 AM to 10 AM</option>
+<option value="11 AM to 12 PM">11 AM to 12 PM</option>
+<option value="2 PM to 4 PM">2 PM to 4 PM</option>
+<option value="8 PM to 10 PM">8 PM to 10 PM</option>
+</select>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group mb-30">
+<select name="your-time" class="form-control">
+<option value="Choose Your Time">Choose Your Scheldule</option>
+<option value="9 AM to 10 AM">9 AM to 10 AM</option>
+<option value="11 AM to 12 PM">11 AM to 12 PM</option>
+<option value="2 PM to 4 PM">2 PM to 4 PM</option>
+<option value="8 PM to 10 PM">8 PM to 10 PM</option>
+</select>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group mb-30">
+<textarea name="your-message" class="form-control" placeholder="Your Message"></textarea>
+</div>
+</div>
+<div class="col-12 text-center">
+<button type="submit" class="btn dento-btn">Booking Now</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="jarallax-container-7" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://preview.colorlib.com/theme/dento/img/bg-img/12.jpg&quot;); position: fixed; top: 0px; left: 0px; width: 1519.2px; height: 724.08px; overflow: hidden; pointer-events: none; margin-top: -4.54px; transform: translate3d(0px, 673.82px, 0px);"></div></div></section>
+
+
+<section class="dentist-area section-padding-100-0">
+<div class="container">
+<div class="row">
+
+<div class="col-12">
+<div class="section-heading text-center">
+<h2>Our Dentist</h2>
+<div class="line"></div>
+</div>
+</div>
+</div>
+<div class="row">
+
+<div class="col-12 col-sm-6 col-md-4">
+<div class="single-dentist-area mb-100">
+<img src="./dento bg1_files/9.png" alt="">
+
+<div class="dentist-content">
+
+<div class="dentist-social-info">
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="fa fa-facebook"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="fa fa-twitter"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="fa fa-google-plus"></i></a>
+</div>
+
+<div class="dentist-info bg-gradient-overlay">
+<h5>Michael Barley</h5>
+<p>Implant Expert</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-sm-6 col-md-4">
+<div class="single-dentist-area mb-100">
+<img src="./dento bg1_files/10.png" alt="">
+
+<div class="dentist-content">
+
+<div class="dentist-social-info">
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="fa fa-facebook"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="fa fa-twitter"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="fa fa-google-plus"></i></a>
+</div>
+
+<div class="dentist-info bg-gradient-overlay">
+<h5>Michael Barley</h5>
+<p>Implant Expert</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-sm-6 col-md-4">
+<div class="single-dentist-area mb-100">
+<img src="./dento bg1_files/11.png" alt="">
+
+<div class="dentist-content">
+
+<div class="dentist-social-info">
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="fa fa-facebook"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="fa fa-twitter"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="fa fa-google-plus"></i></a>
+</div>
+
+<div class="dentist-info bg-gradient-overlay">
+<h5>Michael Barley</h5>
+<p>Implant Expert</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="testimonials-area section-padding-100 bg-img bg-gradient-overlay jarallax clearfix" style="background-image: none;" data-jarallax-original-styles="background-image: url(&#39;img/bg-img/7.jpg&#39;);">
+<div class="container">
+<div class="row">
+<div class="col-12">
+
+<div class="testimonials-slides owl-carousel owl-loaded owl-drag">
+
+
+
+
+
+
+<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-3330px, 0px, 0px); transition: all 0.7s ease 0s; width: 7770px;"><div class="owl-item cloned" style="width: 1110px;"><div class="single-testimonial-slide d-flex align-items-center">
+
+<div class="testimonial-thumb">
+<img src="./dento bg1_files/8.jpg" alt="">
+</div>
+
+<div class="testimonial-content">
+<h5>“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and
+very helpful. Excellent treatment and advice.”</h5>
+<h6>Arron Ramsey</h6>
+<p>Dental Patient</p>
+</div>
+</div></div><div class="owl-item cloned" style="width: 1110px;"><div class="single-testimonial-slide d-flex align-items-center">
+
+<div class="testimonial-thumb">
+<img src="./dento bg1_files/8.jpg" alt="">
+</div>
+
+<div class="testimonial-content">
+<h5>“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and
+very helpful. Excellent treatment and advice.”</h5>
+<h6>Arron Ramsey</h6>
+<p>Dental Patient</p>
+</div>
+</div></div><div class="owl-item" style="width: 1110px;"><div class="single-testimonial-slide d-flex align-items-center">
+
+<div class="testimonial-thumb">
+<img src="./dento bg1_files/8.jpg" alt="">
+</div>
+
+<div class="testimonial-content">
+<h5>“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and
+very helpful. Excellent treatment and advice.”</h5>
+<h6>Arron Ramsey</h6>
+<p>Dental Patient</p>
+</div>
+</div></div><div class="owl-item active" style="width: 1110px;"><div class="single-testimonial-slide d-flex align-items-center">
+
+<div class="testimonial-thumb">
+<img src="./dento bg1_files/8.jpg" alt="">
+</div>
+
+<div class="testimonial-content">
+<h5>“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and
+very helpful. Excellent treatment and advice.”</h5>
+<h6>Arron Ramsey</h6>
+<p>Dental Patient</p>
+</div>
+</div></div><div class="owl-item" style="width: 1110px;"><div class="single-testimonial-slide d-flex align-items-center">
+
+<div class="testimonial-thumb">
+<img src="./dento bg1_files/8.jpg" alt="">
+</div>
+
+<div class="testimonial-content">
+<h5>“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and
+very helpful. Excellent treatment and advice.”</h5>
+<h6>Arron Ramsey</h6>
+<p>Dental Patient</p>
+</div>
+</div></div><div class="owl-item cloned" style="width: 1110px;"><div class="single-testimonial-slide d-flex align-items-center">
+
+<div class="testimonial-thumb">
+<img src="./dento bg1_files/8.jpg" alt="">
+</div>
+
+<div class="testimonial-content">
+<h5>“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and
+very helpful. Excellent treatment and advice.”</h5>
+<h6>Arron Ramsey</h6>
+<p>Dental Patient</p>
+</div>
+</div></div><div class="owl-item cloned" style="width: 1110px;"><div class="single-testimonial-slide d-flex align-items-center">
+
+<div class="testimonial-thumb">
+<img src="./dento bg1_files/8.jpg" alt="">
+</div>
+
+<div class="testimonial-content">
+<h5>“I'd been avoiding the dentist for years due to bad experiences. A reminder SMS is sent the working day beforehand. I also had a call confirming appointment. I have been a patient ever since. My dentist is very reassuring and
+very helpful. Excellent treatment and advice.”</h5>
+<h6>Arron Ramsey</h6>
+<p>Dental Patient</p>
+</div>
+</div></div></div></div><div class="owl-nav"><div class="owl-prev"><i class="arrow_carrot-left" <="" i=""></i></div><div class="owl-next"><i class="arrow_carrot-right" <="" i=""></i></div></div><div class="owl-dots disabled"></div></div>
+</div>
+</div>
+</div>
+<div id="jarallax-container-8" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;"><div style="background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; background-image: url(&quot;https://preview.colorlib.com/theme/dento/img/bg-img/7.jpg&quot;); position: fixed; top: 0px; left: 0px; width: 1519.2px; height: 648px; overflow: hidden; pointer-events: none; margin-top: 33.5px; transform: translate3d(0px, 855.86px, 0px);"></div></div></section>
+
+
+<section class="dento-blog-area section-padding-100-0 clearfix">
+<div class="container">
+<div class="row">
+
+<div class="col-12">
+<div class="section-heading text-center">
+<h2>The Latest News</h2>
+<div class="line"></div>
+</div>
+</div>
+</div>
+<div class="row">
+
+<div class="col-12 col-md-6 col-lg-4">
+<div class="single-blog-item mb-100">
+<a href="https://preview.colorlib.com/theme/dento/blog-details.html">
+<img src="./dento bg1_files/4.jpg" alt="">
+</a>
+
+<div class="blog-content">
+<a href="https://preview.colorlib.com/theme/dento/blog-details.html" class="post-title">How your mouth bacteria can harm your lungs</a>
+<p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam ...</p>
+<div class="post-meta">
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="icon_chat_alt"></i> 3 Comments</a>
+</div>
+</div>
+ </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+<div class="single-blog-item mb-100">
+<a href="https://preview.colorlib.com/theme/dento/blog-details.html">
+<img src="./dento bg1_files/5.jpg" alt="">
+</a>
+
+<div class="blog-content">
+<a href="https://preview.colorlib.com/theme/dento/blog-details.html" class="post-title">What is the best kind of toothpaste to use?</a>
+<p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam ...</p>
+<div class="post-meta">
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="icon_chat_alt"></i> 3 Comments</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-4">
+<div class="single-blog-item mb-100">
+<a href="https://preview.colorlib.com/theme/dento/blog-details.html">
+<img src="./dento bg1_files/6.jpg" alt="">
+</a>
+
+<div class="blog-content">
+<a href="https://preview.colorlib.com/theme/dento/blog-details.html" class="post-title">Why you should avoid sipping your drinks</a>
+<p>Donec tempor, lorem et euismod eleifend, est lectus laoreet ante, sed accusan justo diam ...</p>
+<div class="post-meta">
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="icon_clock_alt"></i> 28 Sep 2018</a>
+<a href="https://preview.colorlib.com/theme/dento/#"><i class="icon_chat_alt"></i> 3 Comments</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<footer class="footer-area bg-img bg-gradient-overlay" style="background-image: url(img/bg-img/3.jpg);">
+<div class="container">
+<div class="row">
+
+<div class="col-12 col-sm-6 col-lg-4">
+<div class="single-footer-widget">
+<a href="https://preview.colorlib.com/theme/dento/index.html" class="d-block mb-4"><img src="./dento bg1_files/logo.png" alt=""></a>
+<p>Etiam sutor risus, dapibus act elefend katen, lacinia sitamet denim. Mauris sagittis kansa interdum dignissim.</p>
+<div class="footer-contact">
+<p><i class="icon_pin"></i> 28 Jackson Street, Chicago, 7788569 USA</p>
+<p><i class="icon_phone"></i> +84. 2252. 2250. 122</p>
+<p><i class="icon_mail"></i> info.dento@gmail.com</p>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-sm-6 col-lg">
+<div class="single-footer-widget">
+
+<h5 class="widget-title">Opening Hours</h5>
+
+<ul class="opening-hours">
+<li><span>Mon-Wed</span> <span>8.00-18.00</span></li>
+<li><span>Thu-Fri</span> <span>8.00-17.00</span></li>
+<li><span>Sat</span> <span>9.00-17.00</span></li>
+<li><span>Sun</span> <span>10.00-17.00</span></li>
+<li><span>Holiday</span> <span>Closed</span></li>
+</ul>
+</div>
+</div>
+
+<div class="col-12 col-sm-6 col-lg">
+<div class="single-footer-widget">
+
+<h5 class="widget-title">Quick Link</h5>
+
+<nav>
+<ul class="quick-links">
+<li><a href="https://preview.colorlib.com/theme/dento/#">About</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">FAQs</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">Contact</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">Policy</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">News</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">Advisors</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">Careers</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">Dentist</a></li>
+<li><a href="https://preview.colorlib.com/theme/dento/#">Services</a></li>
+ <li><a href="https://preview.colorlib.com/theme/dento/#">Legals</a></li>
+</ul>
+</nav>
+</div>
+</div>
+
+<div class="col-12 col-sm-6 col-lg">
+<div class="single-footer-widget">
+
+<h5 class="widget-title">Newsletter</h5>
+<p>We will send out weekly newest article and some great offers</p>
+
+<div class="footer-newsletter-form">
+<form action="https://preview.colorlib.com/theme/dento/#" method="post">
+<input type="email" name="nl-email" value="" placeholder="Email Address">
+<button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+</form>
+</div>
+
+<div class="footer-social-info">
+<a href="https://preview.colorlib.com/theme/dento/#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin"><i class="fa fa-linkedin"></i></a>
+<a href="https://preview.colorlib.com/theme/dento/#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Pinterest"><i class="fa fa-pinterest"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="copywrite-content">
+<p>
+Copyright ©<script>document.write(new Date().getFullYear());</script>2023 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+<script src="./dento bg1_files/jquery.min.js.download"></script>
+
+<script src="./dento bg1_files/popper.min.js.download"></script>
+
+<script src="./dento bg1_files/bootstrap.min.js.download"></script>
+
+<script src="./dento bg1_files/dento.bundle.js.download"></script>
+
+<script src="./dento bg1_files/active.js.download"></script><a id="scrollUp" href="https://preview.colorlib.com/theme/dento/#top" style="position: fixed; z-index: 2147483647; display: none;"><i class="arrow_up" <="" i=""></i></a>
+
+<script async="" src="./dento bg1_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<script defer="" src="./dento bg1_files/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg==" data-cf-beacon="{&quot;rayId&quot;:&quot;7efb7e090983491b&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;,&quot;version&quot;:&quot;2023.7.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+</body></html>
